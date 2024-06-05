@@ -1,0 +1,12 @@
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
+        int s1=Integer.parseInt(s,2);
+        int num=s1+1;
+        if(num>=1){
+            System.out.print(Integer.toBinaryString(num));
+        }
+    }
+}
